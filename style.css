@@ -26,7 +26,6 @@ transition: all 300ms ease;
 
 nav, .nav_links {
 display: flex;
-
 }
 
 nav{
@@ -165,7 +164,12 @@ justify-content: stretch;
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    margin: 0rem;
+    height: 100vh;
+    background-image: url('./Assets/Manila Day.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 .section__pic-container {
@@ -426,6 +430,11 @@ height: 90%;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    margin: 0rem;
+    background-image: url('./Assets/contactbg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 .contact-info-upper-container{
@@ -454,6 +463,12 @@ padding: 0.5rem;
 .contacticon{
     cursor: default;
     height: 2rem;
+}
+
+.titlecontact{
+    font-size:  3rem;
+    text-align:  center;
+    color: white;
 }
 
 /* footer */
