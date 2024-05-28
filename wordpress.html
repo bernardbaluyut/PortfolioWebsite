@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css "/>
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Jeways Cosplay Shop</title>
+</head>
+<body>
+    <nav id="desktop_nav">
+        <div class="logo">Jeways Cosplay Shop</div>
+        <div>
+            <ul class="nav_links">
+                <li><a href="index.html">Main</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="lis.html">LIS Project</a></li>
+                <li><a href="capstone.html">FRS Project</a></li>
+            </ul>
+        </div>
+    </nav>
+<nav id="mobile_nav">
+    <div class="logo">Jeways Cosplay Shop</div>
+    <div class="mobile_menu">
+        <div class="mobile_icon" onclick="openMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu_links">
+            <li><a href="index.html" onclick="openMenu()">Main</a></li>
+            <li><a href="index.html#projects" onclick="openMenu()">Projects</a></li>
+            <li><a href="lis.html" onclick="openMenu()">LIS Project</a></li>
+            <li><a href="capstone.html" onclick="openMenu()">FRS Project</a></li>
+        </div>
+    </div>
+</nav>
+<section id="projects-details">
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+    <p class="section__text__p1">Jeways Cosplay Shop</p>
+    <h1 class="title">Frontend Design</h1>
+<div class="project-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/wordpress.png" alt="LIS Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Home Page</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/homepage.png')">View Image</button>
+            </div>
+            
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/Product Infosample.png" alt="Wordpress Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Product Information</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/Productinfo.png')">View Image</button>
+            </div>
+            
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/cartsample.png" alt="Capstone Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Cart Page</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/cart.png')">View Image</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="project-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/checkoutsample.png" alt="LIS Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Checkout Page</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/checkout.png')">View Image</button>
+            </div>
+            
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/LoginSample.png" alt="Wordpress Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Login Page</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/login.png')">View Image</button>
+            </div>
+            
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/catalogsample.png" alt="Capstone Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Catalog Page</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/catalog.png')">View Image</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<p class="section__text__p1">Jeways Cosplay Shop</p>
+    <h1 class="title">Made With</h1>
+<div class="project-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/wordpresslogo.png" alt="LIS Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Front End</h2>            
+        </div>
+    </div>
+</div>
+    <footer>
+        <nav>
+        <div class="nav-links-container">
+                <ul class="nav_links">
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="lis.html">LIS Project</a></li>
+                    <li><a href="capstone.html">FRS Project</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Bernard Baluyut. All Rights Reserved </p>
+    </footer>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

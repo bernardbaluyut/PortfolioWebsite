@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css "/>
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Financial Recording System</title>
+</head>
+<body>
+    <nav id="desktop_nav">
+        <div class="logo">Financial Recording System</div>
+        <div>
+            <ul class="nav_links">
+                <li><a href="index.html">Main</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="lis.html">LIS Project</a></li>
+                <li><a href="wordpress.html">JCS Project</a></li>
+            </ul>
+        </div>
+    </nav>
+<nav id="mobile_nav">
+    <div class="logo">Financial Recording System</div>
+    <div class="mobile_menu">
+        <div class="mobile_icon" onclick="openMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu_links">
+            <li><a href="index.html" onclick="openMenu()">Main</a></li>
+            <li><a href="index.html#projects" onclick="openMenu()">Projects</a></li>
+            <li><a href="lis.html" onclick="openMenu()">LIS Project</a></li>
+            <li><a href="wordpress.html" onclick="openMenu()">JCS Project</a></li>
+        </div>
+    </div>
+</nav>
+<section id="projects-details">
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+    <p class="section__text__p1">Financial Recording System</p>
+    <h1 class="title">Frontend Design</h1>
+<div class="project-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/splashscreen.png" alt="LIS Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Splash Screen</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/splashscreen.png')">View Image</button>
+            </div>
+            
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/frslogin.png" alt="Wordpress Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Login Page</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/frslogin.png')">View Image</button>
+            </div>
+            
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/frsmainpage.png" alt="Capstone Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Main Page</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/frsmainpage.png')">View Image</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="project-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/frschangelogs.png" alt="LIS Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Changelogs</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/frschangelogs.png')">View Image</button>
+            </div>
+            
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/frsweeklysample.png" alt="Wordpress Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Weekly Report Page</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/frsweekly.png')">View Image</button>
+            </div>
+            
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/frsmonthlysample.png" alt="Capstone Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Monthly Report Page</h2>            
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="showModal('./Assets/frsmonthly.png')">View Image</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<p class="section__text__p1">Financial Recording System</p>
+    <h1 class="title">Made With</h1>
+<div class="project-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/visualstudio.png" alt="LIS Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Front End</h2>            
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./Assets/mssql.png" alt="Wordpress Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project title">Back End</h2>                       
+        </div>
+    </div>
+</div>
+    <footer>
+        <nav>
+        <div class="nav-links-container">
+                <ul class="nav_links">
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="lis.html">LIS Project</a></li>
+                    <li><a href="wordpress.html">JCS Project</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Bernard Baluyut. All Rights Reserved </p>
+    </footer>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
